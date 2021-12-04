@@ -5,4 +5,7 @@
 .Card{
 	@apply w-48 h-64 flex-none shadow-md rounded-lg
 }
+
+.CardTitle{
+	@apply text-3xl px-8 pt-8 pb-1 font-semibold text-white
 }
