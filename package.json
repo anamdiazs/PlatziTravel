@@ -1,0 +1,25 @@
+{
+  "name": "platzitravel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+	  "tw:dev": "tailwindcss -o tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anamdiazs/PlatziTravel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anamdiazs/PlatziTravel/issues"
+  },
+  "homepage": "https://github.com/anamdiazs/PlatziTravel#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}
