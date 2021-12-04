@@ -30,6 +30,78 @@
 				<img src="" alt="">
 			</div>
 		</nav>
+		<div class="w-full h-3/4">
+			<div class=" w-full h-full flex flex-col items-center py-4 space-y-96 lg:space-y-0 lg:items-start lg:justify-start lg:pt-56 absolute">
+				
+					<input
+						class="w-56 lg:hidden h-auto transform p-3 outline-none  duration-300 rounded-full  shadow-lg focus-within:shadow-sm focus:outline-none focus:ring-2  focus:w-11/12   "
+						type="search" name="Searchbar" placeholder="San Francisco" id="">
+				<div class=" hidden h-auto lg:w-2/5 lg:flex pb-6 ">
+					<p class=" lg:flex text-4xl ml-16 font-bold">Encuentra más ubicaciones como esta</p>
+				</div>
+					<button class="bg-white w-48 h-auto p-3 lg:ml-16 rounded-full shadow-md font-semibold text-principal" id='explore-more'>
+						Explorar
+					</button>
+			</div>
+			<div class="w-full h-full bg-cover lg:bg-cover lg:bg-sanFranciscoDesktop lg:bg-center">
+				<img class="w-full h-full lg:hidden" src="./public/img/sanFrancisco.jpg" alt="">
+			</div>
+		</div>
+		<div class="w-full h-auto">
+			<div class="p-6">
+				<p class="text-3xl font-semibold text-principal">Recomendados</p>
+				<div class="w-auto h-auto lg:h-72 mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 lg:space-x-4">
+					<div class="Card">
+						<div id="image-container" class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
+						<div class="bg-secondary h-2/5 rounded-b-lg ">
+							<p class="text-xl px-4 py-2 font-semibold text-white">Yosemite</p>
+							<p class="text-sm px-4 overflow-ellipsis pr-2 text-white">Un respiro del mundo</p>
+						</div>
+					</div>
+					<div class="Card">
+						<div id="image-container" class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
+						<div class=" h-2/5 rounded-b-lg ">
+							<p class="text-xl px-4 py-2 font-semibold text-tertiary">New York</p>
+							<p class="text-sm px-4 overflow-ellipsis pr-2 text-tertiary">Gran ciudad, explora ahora!</p>
+						</div>
+					</div>
+					<div class="Card">
+						<div id="image-container" class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+						<div class=" bg-secondary h-2/5 rounded-b-lg ">
+							<p class="text-xl px-4 py-2 font-semibold text-white">Norway</p>
+							<p class="text-sm px-4 overflow-ellipsis pr-2 text-white">Conoce nuevos lugares</p>
+						</div>
+					</div>
+					<div class="Card">
+						<div id="image-container" class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
+						<div class="h-2/5 rounded-b-lg">
+							<p class="text-xl px-4 py-2 font-semibold text-tertiary">Seattle</p>
+							<p class="text-sm px-4 overflow-ellipsis pr-2 text-tertiary">Una ciudad para disfrutar al máximo</p>
+						</div>
+					</div>
+					<div class="Card">
+						<div id="image-container" class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
+						<div class="bg-secondary h-2/5 rounded-b-lg">
+							<p class="text-xl px-4 py-2 font-semibold text-white">Switzerland</p>
+							<p class="text-sm px-4 overflow-ellipsis pr-2 text-white">El mejor chocolate caliente que probarás</p>
+						</div>
+					</div>
+					<div class="Card">
+						<div id="image-container" class="w-full h-3/5 rounded-t-lg bg-sydney bg-center bg-cover"></div>
+						<div class=" h-2/5 rounded-b-lg ">
+							<p class="text-xl px-4 py-2 font-semibold text-tertiary">Sydney</p>
+							<p class="text-sm px-4 overflow-ellipsis pr-2 text-tertiary">Conoce la famosísima Opera</p>
+						</div>
+					</div>
+					<div class="Card">
+						<div id="image-container" class="w-full h-3/5 rounded-t-lg bg-europe bg-center bg-cover"></div>
+						<div class="bg-secondary h-2/5 rounded-b-lg ">
+							<p class="text-xl px-4 py-2 font-semibold text-white">Edinburgh</p>
+							<p class="text-sm px-4 overflow-ellipsis pr-2 text-white">Castillos y tiempos medievales</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="px-6 h-full">
 				<p class="text-3xl font-semibold text-principal pb-6">Estancias destacadas</p>
 				<div class="w-full h-full flex flex-col items-center justify-center lg:flex-row ">
