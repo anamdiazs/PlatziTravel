@@ -18405,6 +18405,10 @@ video {
   background-image: url('../img/sanFrancisco.jpg');
 }
 
+.bg-sanFranciscoDesktop {
+  background-image: url('../img/sanFranciscoDesktop.jpg');
+}
+
 .bg-yosemite {
   background-image: url('../img/yosemite.jpg');
 }
@@ -32987,9 +32991,21 @@ video {
   height: 16rem;
   width: 12rem;
   flex: none;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.CardTitle{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity))
 }
 
 @media (min-width: 640px) {
@@ -50730,6 +50746,10 @@ video {
 
   .sm\:bg-sanFrancisco {
     background-image: url('../img/sanFrancisco.jpg');
+  }
+
+  .sm\:bg-sanFranciscoDesktop {
+    background-image: url('../img/sanFranciscoDesktop.jpg');
   }
 
   .sm\:bg-yosemite {
@@ -82698,6 +82718,10 @@ video {
     background-image: url('../img/sanFrancisco.jpg');
   }
 
+  .md\:bg-sanFranciscoDesktop {
+    background-image: url('../img/sanFranciscoDesktop.jpg');
+  }
+
   .md\:bg-yosemite {
     background-image: url('../img/yosemite.jpg');
   }
@@ -114662,6 +114686,10 @@ video {
 
   .lg\:bg-sanFrancisco {
     background-image: url('../img/sanFrancisco.jpg');
+  }
+
+  .lg\:bg-sanFranciscoDesktop {
+    background-image: url('../img/sanFranciscoDesktop.jpg');
   }
 
   .lg\:bg-yosemite {
@@ -146630,6 +146658,10 @@ video {
     background-image: url('../img/sanFrancisco.jpg');
   }
 
+  .xl\:bg-sanFranciscoDesktop {
+    background-image: url('../img/sanFranciscoDesktop.jpg');
+  }
+
   .xl\:bg-yosemite {
     background-image: url('../img/yosemite.jpg');
   }
@@ -178594,6 +178626,10 @@ video {
 
   .\32xl\:bg-sanFrancisco {
     background-image: url('../img/sanFrancisco.jpg');
+  }
+
+  .\32xl\:bg-sanFranciscoDesktop {
+    background-image: url('../img/sanFranciscoDesktop.jpg');
   }
 
   .\32xl\:bg-yosemite {
