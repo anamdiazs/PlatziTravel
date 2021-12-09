@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 .Card{
-	@apply w-48 h-64 flex-none shadow-md rounded-lg
+	@apply w-48 h-64 flex-none shadow-md rounded-lg transform transition-all hover:-translate-y-4 hover:shadow-xl 
 }
 
 .CardTitle{
-	@apply text-3xl px-8 pt-8 pb-1 font-semibold text-white
+	@apply text-3xl px-8 pt-8 pb-1 font-semibold text-white 
 }
+@layer utilities {
+	.scrollbar::-webkit-scrollbar {
+	  background: transparent
+	}
+ }

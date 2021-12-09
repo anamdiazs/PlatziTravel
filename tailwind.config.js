@@ -1,6 +1,8 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  purge: [
+	
+  ],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
 	  extend: {
 		  backgroundImage: {
@@ -31,7 +33,11 @@ module.exports = {
 				'principal': '#CC2D4A',
 				'secondary': '#8FA206',
 				'tertiary': '#61AEC9',
-			}
+			},
+			fontFamily: {
+				Montserrat: ["Montserrat", "sans-serif"],
+			 },
+			
 		},
 	},
 	variants: {
